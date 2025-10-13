@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0X;
+}
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    height: 160px;
+    padding: 1rem;
+    width: 660px;
+    margin-top: 0.5rem;
+    border: 2px solid grey;
+}
+
+.img-container {
+    height: 10rem;
+    width: 10rem;
+    padding-right: 1rem;
+}
+
+.img-container img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.product-name {
+    line-height: 1rem;
+    height: 4rem;
+    width: 9rem;
+}
+
+.rating-container img {
+    height: 1rem;
+}
+
+.product-price {
+    height: 1.5rem;
+}

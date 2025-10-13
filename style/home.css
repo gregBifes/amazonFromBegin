@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -32,7 +37,7 @@
 
 .add-to-cart-btn {
     height: 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     font-weight: 500;
     background-color: rgb(255, 216, 20);
@@ -42,5 +47,5 @@
 }
 
 .add-to-cart-btn:hover {
-    background-color: rgb(255, 170, 0);
+    background-color: rgb(236, 201, 26);
 }

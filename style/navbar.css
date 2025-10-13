@@ -9,7 +9,7 @@
     align-items: center;
     grid-template-columns: 1fr 2fr 1fr;
     height: 60px;
-    background-color: rgb(1, 3, 15);
+    background-color: #131921;
     color: white;
 }
 
@@ -26,8 +26,18 @@
     align-items: center;
 }
 
-.amazon-container img {
-    height: 50%;
+.amazon-container a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.amazon-container a img {
+    height: 45%;
+}
+
+.amazon-container img:hover {
+    cursor: pointer;
 }
 
 .midle-bar {
@@ -37,8 +47,9 @@
 }
 
 .main-input {
-    width: 90%;
+    width: 95%;
     height: 95%;
+    font-size: 0.9rem;
 }
 
 .right-bar {
@@ -53,13 +64,24 @@
     text-align: center;
 }
 
+.cart-container:hover {
+    cursor: pointer;
+}
+
 .cart-container img {
     height: 2rem;
 }
 
+.cart-container img:hover {
+    cursor: pointer;
+}
+
 .centered {
+    color: orange;
+    font-size: 1.1rem;
+    font-weight: bold;
     position: absolute;
-    top: 28%;
+    top: 24%;
     left: 59%;
     transform: translate(-50%, -50%);
 }
