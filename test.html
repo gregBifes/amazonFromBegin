@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="product">
+        <div class="img-container">
+            <img src="${matchingProduct.image}" alt="product image">
+        </div>
+        <div class="description-container">
+            <div class="product-name">
+                ${matchingProduct.name}
+            </div>
+            <div class="product-price">
+                ${(matchingProduct.priceCents / 100).toFixed(2)}$
+            </div>
+            <div class="product-quantity">
+                <div><strong>Quantity:</strong> ${productCart.quantity}</div>
+            </div>
+            <div>
+                <button data-product-Id="${productCart.id}" class="js-delete-btn">Delete</button>
+            </div>
+        </div>
+        <div class="delivery-container">
+            <p class="delivery-option-0">Jakaś data 0</p>
+            <p class="delivery-option-1">Jakaś data 1</p>
+            <p class="delivery-option-2">Jakaś data 2</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
