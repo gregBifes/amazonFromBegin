@@ -59,7 +59,19 @@
     margin-left: 1rem;
 }
 
-.delivery-text {
+.delivery-option {
+    display: flex;
+}
+
+.delivery-option div {
+    margin-left: 0.4rem;
+}
+
+.delivery-option-date {
+    color: green;
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+}
+
+.delivery-option-price {
+    color: rgb(100, 100, 100);
 }

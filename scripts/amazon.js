@@ -67,5 +67,7 @@ function renderProducts() {
     });
     localStorage.setItem('cartQuantityItems', JSON.stringify(cartQuantityItems));
     document.querySelector('.centered').innerHTML = cartQuantityItems;
+    console.log('karta: ', cart);
+
 }
 renderProducts();
